@@ -1,0 +1,6 @@
+name: astrbot_plugin_jm_sign
+version: 1.0.1
+author: TraeAI
+description: 自动执行JMComic每日签到，支持自定义域名或自动获取最新域名
+repo: https://github.com/YourName/astrbot_plugin_jm_sign
+display_name: JMComic每日签到

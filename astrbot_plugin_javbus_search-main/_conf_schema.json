@@ -1,0 +1,26 @@
+{
+  "javbus_api_url": {
+    "description": "JavBus API",
+    "type": "string",
+    "hint": "必填项。搭建参考：https://github.com/ovnrain/javbus-api",
+    "default": ""
+  },
+  "javbus_image_proxy": {
+    "description": "JavBus 图片代理",
+    "type": "string",
+    "hint": "选填项。用于解决图片访问限制问题",
+    "default": ""
+  },
+  "baidu_api_key": {
+    "description": "百度翻译产品id",
+    "type": "string",
+    "hint": "选填项。用于多语言翻译",
+    "default": ""
+  },
+  "baidu_secret_key": {
+    "description": "百度翻译密钥",
+    "type": "string",
+    "hint": "选填项。用于多语言翻译",
+    "default": ""
+  }
+}

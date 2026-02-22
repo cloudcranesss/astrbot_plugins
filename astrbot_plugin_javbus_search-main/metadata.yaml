@@ -1,0 +1,5 @@
+name: astrbot_plugin_javbus_search
+desc: 基于JavBus API的搜索服务，支持影片、演员和磁力链接搜索
+version: 1.0.2
+author: cloudcranesss
+repo: https://github.com/cloudcranesss/astrbot_plugin_javbus_search

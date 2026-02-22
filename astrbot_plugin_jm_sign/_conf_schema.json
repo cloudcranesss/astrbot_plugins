@@ -1,0 +1,38 @@
+{
+    "accounts": {
+        "type": "list",
+        "description": "账号列表 (格式: 用户名:密码)",
+        "items": {
+            "type": "string",
+            "description": "用户名:密码",
+            "is_password": true
+        },
+        "default": []
+    },
+    "domain": {
+        "type": "string",
+        "description": "JMComic 域名",
+        "hint": "可选，留空则自动获取",
+        "default": ""
+    },
+    "enable_cron": {
+        "type": "bool",
+        "description": "启用定时任务",
+        "default": false
+    },
+    "cron_expression": {
+        "type": "string",
+        "description": "定时任务 Cron 表达式 (分 时 日 月 周)",
+        "hint": "例如: 0 8 * * * (每天8点)",
+        "default": "0 8 * * *"
+    },
+    "whitelist_users": {
+        "type": "list",
+        "description": "指令白名单 (填 User ID，留空则允许所有人)",
+        "items": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "default": []
+    }
+}

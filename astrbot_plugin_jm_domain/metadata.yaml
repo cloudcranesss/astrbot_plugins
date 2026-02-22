@@ -1,0 +1,5 @@
+name: astrbot_plugin_jm_domain
+desc: 自动检测JMComic内地发布页的最新网域
+version: v1.0
+author: TraeAI
+repo: https://github.com/YourName/astrbot_plugin_jm_domain

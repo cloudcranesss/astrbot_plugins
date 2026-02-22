@@ -1,0 +1,27 @@
+{
+  "IMAGE_DOMAIN_REPLACEMENT": {
+    "description": "图片域名替换地址，用于替换whatslink.info域名，优先使用此配置",
+    "type": "string",
+    "hint": "选填项。用于图片域名替换的自定义地址",
+    "default": ""
+  },
+  "WHATSLINK_URL": {
+    "description": "whatslink.info 网址，目前大陆被屏蔽，需自行搭建代理（向后兼容）",
+    "type": "string",
+    "hint": "选填项。自行搭建whatslink反向代理，默认为https://whatslink.info",
+    "default": "https://whatslink.info"
+  },
+  "MAX_IMAGES": {
+    "description": "最大返回图片数，最多9张",
+    "type": "int",
+    "hint": "选填项，默认为9",
+    "default": "9"
+  },
+
+  "USE_FORWARD_MESSAGE": {
+    "description": "是否使用合并转发消息格式",
+    "type": "bool",
+    "hint": "选填项。启用后使用合并转发格式发送消息，禁用则使用普通消息格式",
+    "default": "true"
+  }
+}

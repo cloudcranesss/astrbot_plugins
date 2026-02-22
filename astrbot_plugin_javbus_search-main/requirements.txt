@@ -1,0 +1,7 @@
+aiohttp>=3.9.0
+requests>=2.31.0  # 保留requests，用于部分未完全迁移的代码或特殊情况
+loguru>=0.7.0  # 假设项目使用loguru作为日志记录器
+asyncio>=3.4.3  # Python内置，但明确说明
+typing_extensions>=4.5.0  # 类型提示支持
+python-dotenv>=1.0.0  # 环境变量管理
+hashlib  # Python内置，但明确说明
