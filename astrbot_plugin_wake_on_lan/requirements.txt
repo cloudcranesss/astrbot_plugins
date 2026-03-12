@@ -1,0 +1,2 @@
+# Wake-on-LAN 插件无需额外依赖
+# 仅使用 Python 标准库 (socket)

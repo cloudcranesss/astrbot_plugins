@@ -1,0 +1,38 @@
+{
+  "whitelist": {
+    "type": "list",
+    "description": "用户白名单，允许使用唤醒功能的用户ID",
+    "hint": "留空则允许所有人使用",
+    "default": []
+  },
+  "devices": {
+    "type": "list",
+    "description": "设备列表，配置要唤醒的设备信息",
+    "default": [],
+    "items": {
+      "name": {
+        "type": "string",
+        "description": "设备名称",
+        "default": ""
+      },
+      "mac": {
+        "type": "string",
+        "description": "MAC 地址",
+        "hint": "例如: AA:BB:CC:DD:EE:FF",
+        "default": ""
+      },
+      "broadcast": {
+        "type": "string",
+        "description": "广播地址",
+        "hint": "通常为 255.255.255.255 或设备所在子网广播地址",
+        "default": "255.255.255.255"
+      },
+      "port": {
+        "type": "int",
+        "description": "端口号",
+        "hint": "通常为 7 或 9",
+        "default": 9
+      }
+    }
+  }
+}
