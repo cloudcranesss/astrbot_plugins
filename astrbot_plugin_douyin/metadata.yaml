@@ -1,0 +1,6 @@
+name: astrbot_plugin_douyin
+version: 1.0.0
+author: cloudcranesss
+description: 解析抖音链接，提取视频信息、封面、背景音乐等
+repo: https://github.com/cloudcranesss/astrbot_plugins
+display_name: 抖音链接解析

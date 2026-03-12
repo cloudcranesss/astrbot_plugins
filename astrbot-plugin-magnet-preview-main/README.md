@@ -1,5 +1,4 @@
-
----
+***
 
 # 🧲 Magnet Preview 磁力链接预览工具
 
@@ -22,11 +21,11 @@ magnet:?xt=urn:btih:A736FE3DE765B2601A52C6ACC166F75A5EE9B0A6&dn=SSNI730
 
 ## ⚙️ 配置说明
 
-| 配置项                     | 类型   | 必填 | 默认值    | 说明                                                                 |
-| -------------------------- | ------ | ---- | --------- | -------------------------------------------------------------------- |
-| `IMAGE_DOMAIN_REPLACEMENT` | string | 否   | -         | **推荐** 图片域名替换地址，用于替换whatslink.info域名，优先使用此配置 |
-| `WHATSLINK_URL`            | string | 否   | -         | **向后兼容** whatslink.info 代理地址（将被IMAGE_DOMAIN_REPLACEMENT替代） |
-| `MAX_IMAGES`               | int    | 否   | 9         | 最大返回图片数，最多9张                                                |
+| 配置项                        | 类型     | 必填 | 默认值 | 说明                                                           |
+| -------------------------- | ------ | -- | --- | ------------------------------------------------------------ |
+| `IMAGE_DOMAIN_REPLACEMENT` | string | 否  | -   | **推荐** 图片域名替换地址，用于替换whatslink.info域名，优先使用此配置                 |
+| `WHATSLINK_URL`            | string | 否  | -   | **向后兼容** whatslink.info 代理地址（将被IMAGE\_DOMAIN\_REPLACEMENT替代） |
+| `MAX_IMAGES`               | int    | 否  | 9   | 最大返回图片数，最多9张                                                 |
 
 ### 配置优先级说明
 
@@ -38,11 +37,11 @@ magnet:?xt=urn:btih:A736FE3DE765B2601A52C6ACC166F75A5EE9B0A6&dn=SSNI730
 
 ### 解析结果示例
 
-![](https://netdisc.smartapi.com.cn/d/BQACAgUAAxkBAAM4aHHUNyfMQW_sS3BB37f_hbCmPLoAAoQWAAJbQJBXtvY577PmJUw2BA)
+!\[]\(http\://netdisc.us.mintcat.eu.cc/d/BQACAgUAAxkBAAM4aHHUNyfMQW\_sS3BB37f\_hbCmPLoAAoQWAAJbQJBXtvY577PmJUw2BA)
 
 ### 多图预览效果
 
-![](https://netdisc.smartapi.com.cn/d/BQACAgUAAxkBAAM7aHHUn894WtSmA5PS7KI5J0HeQNYAAoUWAAJbQJBXetbR7lKQB5g2BA)
+!\[]\(http\://netdisc.us.mintcat.eu.cc/d/BQACAgUAAxkBAAM7aHHUn894WtSmA5PS7KI5J0HeQNYAAoUWAAJbQJBXetbR7lKQB5g2BA)
 
 ## 🔧 部署建议
 
@@ -53,3 +52,4 @@ magnet:?xt=urn:btih:A736FE3DE765B2601A52C6ACC166F75A5EE9B0A6&dn=SSNI730
 
 - 大陆用户需自行搭建whatslink反向代理
 - 图片数量设置过多可能导致消息过长
+

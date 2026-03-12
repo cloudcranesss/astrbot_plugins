@@ -10,7 +10,7 @@ import asyncio
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.cron import CronTrigger
 
-@register("astrbot_plugin_jm_sign", "TraeAI", "JMComic每日签到", "1.0.0", "https://github.com/YourName/astrbot_plugin_jm_sign")
+@register("astrbot_plugin_jm_sign", "cloudcranesss", "JMComic每日签到", "1.0.0", "https://github.com/cloudcranesss/astrbot_plugins")
 class JMSign(Star):
     def __init__(self, context: Context, config: AstrBotConfig):
         super().__init__(context)

@@ -1,0 +1,26 @@
+{
+  "api_id": {
+    "type": "string",
+    "description": "API 接口 ID",
+    "default": "88888888",
+    "hint": "apihz.cn API 接口 ID"
+  },
+  "api_key": {
+    "type": "string",
+    "description": "API 接口 Key",
+    "default": "88888888",
+    "hint": "apihz.cn API 接口 Key"
+  },
+  "timeout": {
+    "type": "int",
+    "description": "请求超时时间",
+    "default": 30,
+    "hint": "单位：秒"
+  },
+  "send_method": {
+    "type": "string",
+    "description": "消息发送方式",
+    "options": ["yield", "nodes"],
+    "default": "yield"
+  }
+}

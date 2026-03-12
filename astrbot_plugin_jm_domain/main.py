@@ -4,7 +4,7 @@ from astrbot.api import logger
 import aiohttp
 import re
 
-@register("astrbot_plugin_jm_domain", "TraeAI", "检测JM国内域名", "v1.0", "https://github.com/YourName/astrbot_plugin_jm_domain")
+@register("astrbot_plugin_jm_domain", "cloudcranesss", "检测JM国内域名", "v1.0", "https://github.com/cloudcranesss/astrbot_plugins")
 class JMDomain(Star):
     def __init__(self, context: Context):
         super().__init__(context)

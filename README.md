@@ -12,6 +12,7 @@
 | **XYZW Box** | `astrbot_plugin_xyzw_box-main` | 1.0.1 | cloudcranesss | 咸鱼之王宝箱自动识别工具。 |
 | **Magnet Preview** | `astrbot-plugin-magnet-preview-main` | 1.0.1 | cloudcranesss | 磁链预览工具，解析磁力链接并展示文件信息和截图。 |
 | **TG Netdisk Upload** | `astrbot-plugin-tgnetdisk-upload-main` | 1.0.0 | cloudcranesss | TG_NETWORK_DISK 上传工具。 |
+| **抖音解析** | `astrbot_plugin_douyin` | 1.0.0 | Trae | 自动解析抖音链接，提取视频信息、封面、背景音乐，支持文本+图片/视频分开发送。 |
 
 ## 📚 开发文档与资源
 
